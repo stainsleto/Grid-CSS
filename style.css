@@ -3,13 +3,13 @@ body{
     display: flex;
     justify-content: center;
     align-items:center;
-    height:700px;
+    height:750px;
     
 }
 
 .container{
     display:grid;
-    grid-template:repeat(2,150px) / repeat(4,1fr);
+    grid-template:repeat(2,300px) / repeat(4,300px);
     gap:20px;
     
 }
@@ -18,6 +18,9 @@ body{
     background-color:hsl(263, 55%, 52%);
     border-radius: 7px;
     grid-column: 1/3;
+    background-image: url(./images/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-position:top;
     
 }
 
@@ -45,3 +48,68 @@ body{
     color:white;
     grid-column: 2/4;
 }
+
+.profile-details{
+    display:flex;
+    flex-direction:row;
+    gap:15px;
+    margin:20px;
+    justify-content: flex-start;
+    
+}
+
+.profile-image{
+    border: hsl(0, 0%, 81%) 2px solid;
+    border-radius: 50px;
+    width: 35px;
+    height:35px;
+}
+
+.profile-title{
+    display: flex;
+    flex-direction:column;
+    gap:5px;
+    margin-top:2px;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+.profile-name{
+    margin:0px;
+    font-size:11px;
+    font-weight:600;
+}
+
+#profile-name{
+    color:white;
+}
+
+#profile-status{
+    color:hsl(0, 0%, 81%);
+}
+
+.card-body{
+    margin:20px;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+.card-title{
+    font-size:22px;
+    font-weight: 600;
+    color: white;
+    margin:0px;
+}
+
+.card-description{
+    font-size:16px;
+    font-weight: 600;
+    color: hsl(0, 0%, 81%);
+}
+
+.white-card-title{
+    color: black;
+}
+
+.white-card-desc{
+    color:hsl(217, 19%, 35%);
+}
+
