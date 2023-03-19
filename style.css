@@ -1,10 +1,13 @@
 body{
     background-color:hsl(210, 46%, 95%);
+    
+}
+
+.main{
     display: flex;
     justify-content: center;
     align-items:center;
-    height:750px;
-    
+    height:730px;
 }
 
 .container{
@@ -112,4 +115,9 @@ body{
 .white-card-desc{
     color:hsl(217, 19%, 35%);
 }
+
+.attribution{
+    text-align: center;
+}
+
 
